@@ -57,7 +57,8 @@ nav{
 }
 .home-img{
     width: 96vw;
-    height: 30rem;
+    height: auto;
+    max-height: 30rem;
     border-radius: 1rem;
     position: absolute;
     left: 50%;
@@ -73,10 +74,16 @@ nav{
     .logo{
         height: 4rem;
     }
+    .home-img > img{
+        transform: translateY( -15%);
+    }
 }
 @media screen and (max-width: 600px) {
     .logo{
         height: 2rem;
+    }
+    .home-img > img{
+        transform: translateY( 0%);
     }
 }
 nav{
