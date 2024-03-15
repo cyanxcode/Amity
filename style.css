@@ -13,10 +13,10 @@ main{
     position: absolute;
     width: 100vw;
 }
+/*
 body[data-nav="true"] > main{
     transform: translateX(18rem);
 }
-
 #nav-toggle{
     width:3rem;
     height:3rem;
@@ -47,6 +47,7 @@ nav{
     width: 18rem;
     z-index: 2;
 }
+*/
 .navbar{
     display: flex;
     width: 100vw;
