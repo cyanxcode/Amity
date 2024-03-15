@@ -66,11 +66,19 @@ nav{
 }
 .home-img > img{
     width: 100%;
+    height: 100%;
     transform: translateY( -15%);
     object-fit: cover;
 }
-.logo{
-    height: 4rem;
+@media screen and (min-width: 600px) {
+    .logo{
+        height: 4rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        height: 2rem;
+    }
 }
 nav{
     display: flex;
